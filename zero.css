@@ -1,5 +1,7 @@
 /**
+ * ---------------------------------------------------------------------
  * zero.css
+ * =====================================================================
  *
  * A modern approach to normalizing HTML elements and providing a 
  * foundation for your web projects.
@@ -10,13 +12,16 @@
  */
 /*
  * Commonality
+ * -----------
  *
- * A group of common HTML elements that share certain properties. 
- * Ideally, all elements within this group should:
+ * A semantic unit of HTML elements sharing similar styling traits, 
+ * forming a cohesive visual foundation. 
+
+ * Ideally, all elements within this group:
  *
- *  1. Have zero padding and margin
- *  2. Inherit font properties and text-alignment from their parent 
- *  3. Follow consistent vertical alignment
+ *  1. Have zero padding and margin for clean presentation
+ *  2. Inherit font properties and text-alignment for uniformity
+ *  3. Maintain consistent vertical alignment
  *
  * @since 0.1
  */
@@ -111,6 +116,7 @@ canvas {
 
 /*
  * Universal box-sizing
+ * --------------------
  *
  * While the performance gain might be minimal in modern browsers,
  * inheriting `box-sizing` provides semantic consistency and aligns
@@ -122,9 +128,7 @@ canvas {
  * @since 0.1
  */
 :root {
-  --base-font-size: 100%;
   box-sizing: border-box;
-  font-size: var(--base-font-size);
 }
 
 *, *::before, *::after {
@@ -133,16 +137,18 @@ canvas {
 
 /*
  * Optimized media
+ * ---------------
  *
- * Optimizing media elements is essential for a responsive web design.
- * A group of media elements optimized to:
+ * Optimizing media elements is essential for responsive web design, 
+ * ensuring they adapt seamlessly across various devices and screen 
+ * sizes. This group of media elements is optimized to:
  *
  *  1. Fit within the available width
  *  2. Avoid shrinking vertically when inconsistent height attribute 
  *     is provided to the media element
  *
- * For example, the following image will not go beyond the boundaries 
- * of its parent and maintain the aspect-ratio by disregarding 
+ * This image, for example, won't extend beyond its parent element's 
+ * horizontal boundaries while preserving its aspect ratio by ignoring 
  * the `height` HTML attribute.
  * 
  *  `<img src="path/to/a-2000x1600-image.format" 
@@ -162,6 +168,7 @@ iframe {
 
 /*
  * Normalizing form-elements
+ * -------------------------
  *
  * While most form elements have been normalized, some specific aspects 
  * still require attention.
