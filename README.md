@@ -2,7 +2,7 @@
 
 Zero CSS or `zero.css` simplifies the process of standardizing HTML elements and laying a solid groundwork for your web projects.
 
-In the dynamic world of the web, Zero CSS provides a starting point for your new projects, reducing the initial setup to zero so you can start building from scratch.
+It offers a starting point for modern web projects, providing a quick and contemporary CSS reset. This eliminates the need for an initial setup, enabling you to start building from scratch without worrying about resetting defaults for various HTML elements.
 
 Please note that Zero CSS is currently in the alpha stage and is not recommended for production use yet.
 
