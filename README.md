@@ -1,37 +1,34 @@
 ## What is Zero CSS
 
-Zero CSS or `zero.css` is a modern approach to standardizing HTML elements and establishing a strong foundation for your web projects.
+Zero CSS or `zero.css` simplifies the process of standardizing HTML elements and laying a solid groundwork for your web projects.
 
-Considering the fast-moving world of the web, Zero CSS works as a working ground for your new projects where everything is basically zeroed-down for you to start making things from scratch.
+In the dynamic world of the web, Zero CSS provides a starting point for your new projects, reducing the initial setup to zero so you can start building from scratch.
 
-It is currently in alpha stage, and is not recommended to use in production yet.
+Please note that Zero CSS is currently in the alpha stage and is not recommended for production use yet.
 
 ## What it offers
 
-Zero CSS aims to provide a consistent look and feel across different web elements, inspired by influential projects like Meyer's Reset, HTML5 Reset, and Normalize CSS.
+Zero CSS is designed to ensure a uniform appearance across various web elements, drawing inspiration from influential projects such as Meyer's Reset, HTML5 Reset, and Normalize CSS.
 
 ### Features
 
-- Normalize HTML elements for consistency
-- Establish a solid base for web projects
-- Simplify the CSS part of the front-end design and development process
-- Improve reliability and usability of websites
+- Normalizes HTML elements for consistent appearance
+- Establishes a sturdy foundation for web projects
+- Save developers some time and effort 
 
-### Usage
+### Using Zero CSS in your project
 
-To use Zero CSS in your project, simply include the provided CSS file in your HTML document:
+Include the provided `zero.css` file in your HTML document for straightforward integration:
 
 ```html
 <link rel="stylesheet" href="zero.css" />
 ```
 
-Alternatively, not a recommended way though, you can import the Zero CSS stylesheet directly in your project like below:
+While not ideal for long-term maintenance, another option is to use the CSS `@import` rule to include the zero stylesheet in your main CSS file. However, a better approach is to directly copy the entire CSS code and paste it into your main stylesheet.
 
-```css
-@import 'zero.css';
-```
+For advanced JavaScript workflows, download the `zero.css` file, add it to your project, and use it as you would with your preferred frameworks.
 
-As soon as this project moves to beta, there will be an NPM package to provide regular as well as CSS modules that you could consume in your JavaScript apps. 
+If this project receives positive feedback, I plan to create an NPM package offering Regular and CSS Modules formats, making it easier to integrate with your JavaScript applications.
 
 ## Contributing
 
@@ -41,16 +38,16 @@ Contributions are welcome from the community to help improve Zero CSS. If you ha
 
 Your input is valuable in shaping this project further.
 
-If you have any feedback or questions about Zero CSS, please don't hesitate to reach out to me on Twitter, or as already mentioned, feel free to open an issue if you thin it's worth it. 
+If you have any feedback or questions about Zero CSS, please don't hesitate to [reach out to me on Twitter](https://twitter.com/c99rahul), or as already mentioned, feel free to open an issue if you thin it's worth it. 
 
 ## Acknowledgements
 
-I would like to express gratitude to the creators of Meyer's Reset, HTML5 Reset, and Normalize.css for inspiring this project.
+I would like to express gratitude to the creators of [Meyer's Reset](https://meyerweb.com/eric/tools/css/reset/), [HTML5 Reset](http://html5doctor.com/html-5-reset-stylesheet/), and [Normalize.css](https://necolas.github.io/normalize.css/) for inspiring this project.
 
 ## License
 
 Zero CSS is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
 
----
+### Currently in alpha
 
-Note: Zero CSS is currently in beta. Use with caution in production environments.
+Zero CSS is currently in alpha stage. Use with caution in production environments.
