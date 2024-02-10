@@ -38,7 +38,7 @@ Contributions are welcome from the community to help improve Zero CSS. If you ha
 
 Your input is valuable in shaping this project further.
 
-If you have any feedback or questions about Zero CSS, please don't hesitate to [reach out to me on Twitter](https://twitter.com/c99rahul), or as already mentioned, feel free to open an issue if you thin it's worth it. 
+If you have any feedback or questions about Zero CSS, feel free to [reach out to me on Twitter](https://twitter.com/c99rahul). You can also open an issue if you think it's necessary.
 
 ## Acknowledgements
 
