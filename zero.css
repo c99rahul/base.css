@@ -6,7 +6,7 @@
  * A modern approach to normalizing HTML elements and providing a 
  * foundation for your web projects.
  * 
- * @since  0.1
+ * @since  1.0.0
  * @author Rahul C.
  * @link   https://twitter.com/c99rahul
  */
@@ -23,7 +23,7 @@
  *  2. Inherit font properties and text-alignment for uniformity
  *  3. Maintain consistent vertical alignment
  *
- * @since 0.1
+ * @since 1.0.0
  */
 html,
 body,
@@ -125,7 +125,7 @@ canvas {
  * Consider overriding this behavior for specific elements if necessary
  * based on your design requirements.
  *
- * @since 0.1
+ * @since 1.0.0
  */
 :root {
   box-sizing: border-box;
@@ -155,7 +155,7 @@ canvas {
  *        width="500"
  *        height="300" />`
  *
- * @since 0.1
+ * @since 1.0.0
  */
 img,
 svg,
@@ -177,7 +177,7 @@ iframe {
  * styles for form elements will enhance the UX and provide 
  * visual cues for interaction.
  *
- * @since 0.1
+ * @since 1.0.0
  */
 label,
 button,
